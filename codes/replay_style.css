@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    background-color: black;
+    font-family: 'Roboto' !important;
+}
+
+a {
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    right: 3%;
+    bottom: 20%;
+    overflow: hidden;
+}
+
+p {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.p1:hover, .p2:hover {
+    opacity: .3;
+    cursor: pointer;
+}
+
+h4 {
+    color: grey;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#portfolio p {
+    color: grey;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.filters {
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+li {
+    display: inline;
+    padding: 10px 25px;
+    font-size: 20px;
+    color: #636363;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+#ai_pos{
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    right: 10%;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    position: center;
+}
+
+path.slice{
+    stroke-width:2px;
+}
+
+text{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+polyline{
+    opacity: .3;
+    stroke: black;
+    stroke-width: 2px;
+    fill: none;
+}
+
+.labelValue
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 60%;
+    opacity: .5;
+
+}
+
+label {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+.toolTip {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    background: none repeat scroll 0 0 white;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: -3px 3px 15px #888888;
+    color: black;
+    font: 12px sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.legend {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 60%;
+}
+rect {
+    stroke-width: 2;
+}
+
+text {
+    font: 10px sans-serif;
+}
+
+
+text.value{
+    font-size: 200%;
+    fill: white;
+}
+
+text.label{
+    font-size: 100%;
+}
+
+.axis text {
+    font: 12px sans-serif;
+    fill: white;
+}
+
+.axis path{
+    fill: none;
+    stroke: blue;
+}
+
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis .tick line {
+    stroke-width: 1;
+    stroke: rgba(255, 255, 255, 0);
+}
+
+.axisHorizontal path{
+    fill: none;
+}
+
+.axisHorizontal line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axisHorizontal .tick line {
+    stroke-width: 1;
+    stroke: rgba(0, 0, 0, 0.2);
+}
+
+.bar {
+    fill: royalblue;
+    fill-opacity: .9;
+}
+
+.x.axis path {
+    display: none;
+}
+
+canvas {
+    display: block;
+    margin: auto; /* centers the canvas */
+    position: absolute;
+    width: 32%;
+    left: 27%;
+    top: 54%;
+    height: 800px;
+    transform: translate(-50%, -50%);
+}
+
+.show_pos{
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
